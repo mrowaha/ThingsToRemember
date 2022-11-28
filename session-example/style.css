@@ -1,0 +1,38 @@
+body {
+    display:  flex;
+    justify-content: center;
+}
+
+form { 
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#failed-login {
+    color : red;
+    font-size: 1rem;
+    display: none;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input-field {
+    position: relative;
+}
+
+.input-field input {
+    padding : 0.8rem;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+form input[type="submit"] {
+    background: linear-gradient(to left, #4776e6, #8e54e9);
+    color: white;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}
