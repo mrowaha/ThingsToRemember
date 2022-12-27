@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    display: flex;
+    gap : 2rem;
+}
+
+.container div {
+    width : fit-content;
+    height : fit-content;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding : 0;
+    margin: 0;
+    border-color: black;
+}
+
+.favorite {
+    border-color: red;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
